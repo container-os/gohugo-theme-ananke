@@ -30,8 +30,5 @@ function addIgnoreItem {
 }
 
 doOrphanCheckout gh-pages
-doOrphanCheckout content
 git worktree add public gh-pages
-git worktree add content content
 addIgnoreItem "/public"
-addIgnoreItem "/content"
